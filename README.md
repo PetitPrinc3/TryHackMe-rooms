@@ -4,8 +4,8 @@ This repository will host hints, writeups, codes etc. regarding the rooms I will
 
 Feel free to contact me regarding anything at :
 
-Discord : Gavroche#2871
-E-mail  : gavrochebackups@gmail.com
+> Discord : Gavroche#2871
+> E-mail  : gavrochebackups@gmail.com
 
 Cheers !
 
