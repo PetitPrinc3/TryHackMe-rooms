@@ -3,7 +3,7 @@
 If you are looking for hints to complete the Olympus Tryhackme room, you are in the right place.
 > To use these hints properly, open them from the first one of the division you are working on up to the hint that you are interested on. Should you not find the hint you are looking for, feel free to contact me !
 
-## Enumeration :mag_right:
+## Enum3r4t10n :mag_right:
 <details>
   <summary>Enumeration #1 </summary>
 
@@ -42,7 +42,7 @@ If you are looking for hints to complete the Olympus Tryhackme room, you are in 
 
 </details>
 
-## Foothold :boy:
+## F00th0ld :boy:
 
 <details>
   <summary>Foothold #1 </summary>
@@ -88,7 +88,7 @@ If you are looking for hints to complete the Olympus Tryhackme room, you are in 
 
 </details>
 
-## Lateral movement :fire:
+## L4t3r4l m0v3m3nt :fire:
 
 <details>
   <summary>Lateral privesc #1 </summary>
@@ -127,7 +127,7 @@ If you are looking for hints to complete the Olympus Tryhackme room, you are in 
 
 </details>
 
-## Privesc :skull_and_crossbones:
+## Pri²v3sc :skull_and_crossbones:
 
 <details>
   <summary>R00T #1 </summary>
