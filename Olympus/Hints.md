@@ -127,7 +127,7 @@ If you are looking for hints to complete the Olympus Tryhackme room, you are in 
 
 </details>
 
-## Pri²v3sc :skull_and_crossbones:
+## Priv3sc :skull_and_crossbones:
 
 <details>
   <summary>R00T #1 </summary>
