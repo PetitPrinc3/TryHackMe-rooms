@@ -1,6 +1,7 @@
-# Hints
+# Hints :tada:
 
 If you are looking for hints to complete the Olympus Tryhackme room, you are in the right place.
+> To use these hints properly, open them from the first one of the division you are working on up to the hint that you are interested on. Should you not find the hint you are looking for, feel free to contact me !
 
 ## Enumeration :mag_right:
 <details>
@@ -29,6 +30,15 @@ If you are looking for hints to complete the Olympus Tryhackme room, you are in 
 
   Still did not find the vuln ?
   > You should SEARCH harder !
+
+</details>
+</details>
+<details>
+  <summary>What's to remember from this part ? :brain:</summary>
+
+  - Don't get used to using the same tools, same wordlists as ever because sometimes you'll miss the important thing.
+  - When you find something that seems or is known to be vulnerable, some vulnerabilities might have been patched. It doesn't mean that everything was patched though, so challenge everything !
+  - When you find a leak, don't stop at what you think is interesting to you, dump everything and sort the intel.
 
 </details>
 
@@ -69,6 +79,14 @@ If you are looking for hints to complete the Olympus Tryhackme room, you are in 
   > Well I wonder where you mind find this information... Maybe the messages are stored somewhere for the app to work properly ?
 
 </details>
+</details>
+<details>
+  <summary>What's to remember from this part ? :brain:</summary>
+
+  - Always take note of everything you retrieve. Sometimes things won't be relevant at the moment, but they might be later on !
+  - When you find a vulnerability, keep it in mind. It can have consequences on other services/systems even if it seems basic at first.
+
+</details>
 
 ## Lateral movement :fire:
 
@@ -100,8 +118,16 @@ If you are looking for hints to complete the Olympus Tryhackme room, you are in 
   > Crack it already !
 
 </details>
+<details>
+  <summary>What's to remember from this part ? :brain:</summary>
 
-## Privesc :skull:
+  - It is not because linpeas doesn't flag anything as obvious that nothing's vulnerable.
+  - When you find something unusual, always investigate it ! You can find ways to leverage things your own way !
+  - Don't always overcomplicate things :stuck_out_tongue_winking_eye:
+
+</details>
+
+## Privesc :skull_and_crossbones:
 
 <details>
   <summary>R00T #1 </summary>
@@ -117,6 +143,14 @@ If you are looking for hints to complete the Olympus Tryhackme room, you are in 
   > Sure seems like a web page ! why not try connecting to it ?
 
 </details>
+<details>
+  <summary>What's to remember from this part ? :brain:</summary>
+
+  - Once again, it is not because linpeas doesn't flag anything as obvious that nothing's vulnerable.
+  - We are pretty used to poor user permission management however, you can also be assigned rights through your group !
+  - When you find a weird unusual file, even if it doesn't seem much, investigate ! It could be something !
+
+</details>
 
 ## B0nus :trollface:
 
@@ -125,5 +159,11 @@ If you are looking for hints to complete the Olympus Tryhackme room, you are in 
 
   How in the world did you hide it ?!
   > Well you know what you're looking for, don't you ? It's supposed to start with "flag{"
+
+</details>
+<details>
+  <summary>What's to remember from this part ? :brain:</summary>
+
+  - Remember the regex I gave you, it is pretty useful and has helped a lot through multiple CTFs.
 
 </details>
