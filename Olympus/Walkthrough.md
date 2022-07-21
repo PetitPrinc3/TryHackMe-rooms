@@ -211,7 +211,24 @@ $~ grep -irl 'flag{'
 ```
 
 Note : I had to add my ssh public key to the authorized keys of the root user and use the regex logged in over ssh.  
+
+
+## :brain: What's to remember ?
+
+- Don't get used to using the same tools, same wordlists as ever because sometimes you'll miss the important thing.
+- When you find something that seems or is known to be vulnerable, some vulnerabilities might have been patched. It doesn't mean that everything was patched though, so challenge everything !
+- When you find a leak, don't stop at what you think is interesting to you, dump everything and sort the intel.
+- Always take note of everything you retrieve. Sometimes things won't be relevant at the moment, but they might be later on !
+- When you find a vulnerability, keep it in mind. It can have consequences on other services/systems even if it seems basic at first.
+- It is not because linpeas doesn't flag anything as obvious that nothing's vulnerable.
+- When you find something unusual, always investigate it ! You can find ways to leverage things your own way !
+- We are pretty used to poor user permission management however, you can also be assigned rights through your group !
+- When you find a weird unusual file, even if it doesn't seem much, investigate ! It could be something !
+- Remember the regex I gave you, it is pretty useful and has helped a lot through multiple CTFs.
+
+
 I hope you enjoyed the room even if you had to use this walkthrough and that you learned some usefull stuff ^^
+
 
 ##
 
