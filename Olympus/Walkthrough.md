@@ -155,6 +155,14 @@ We can now upload a simple php reverse shell and then recover it's upload path u
 
 Finally, just connect to your php file and get a reverse shell already !
 
+
+> :computer: Alternative foothold :
+>
+> From victor's CMS, there is an unintended way to get a reverse shell without even going through http://chat.olympus.com  
+> The idea is to manually connect to /admin/includes/admin_add_post.php to upload a reverse php shell and then browse to it in the /admin/img section.  
+> I did not try it on my own though, but feel free to experiment on that base !
+
+
 ## :fire: Lateral Privesc :
 
 > Optionnal : stabilize your shell.
@@ -177,11 +185,18 @@ Backdoors are really often hidden in websites and accessible over http.
 Looking in /var/www/html , we can read the weird php file we found earlier.  
 We could also be looking for the files we own or for the files our group owns. In fact, the zeus group owns a weirdly named file in /var/www/html.
 
-When reaching to this file over http, we are asked for a password that we do not know.
+When reaching to this file over http at http://<IP>/weirdfolder/weirdfile.php, we are asked for a password that we do not know.
 However, as Zeus, we are able to read the php file and collect some usefull information like the password.
 Finaly, as explained on the php file, we are able to gain a reverse shell using the password we found.
 
+> :skull_and_crossbones: Alternative privesc :
+>
+> Instead of connecting to the webpage, we could have reverse engineered the php code and find out the binary that it was using and just execute it to get a root shell.  
+> The line containing this information is :  
+> $suid_bd = "/lib/<REDACTED>";
+
 Et voilà, we are finally r00ted ;)
+
 
 ## :trollface: Bonus flag :
 
